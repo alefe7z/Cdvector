@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cdvector"
+version = "0.1.0"
+description = "Independent desktop vector editor"
+requires-python = ">=3.10"
+
+[project.gui-scripts]
+cdvector = "cdvector.app:main"
+
+[tool.setuptools]
+packages = ["cdvector"]

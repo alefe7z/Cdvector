@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
+*.spec
+*.egg-info/
+*.cdr
+*.dll
+*.exe
+*.rar
+*.zip
